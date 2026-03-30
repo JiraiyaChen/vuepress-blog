@@ -1,7 +1,22 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
+  ["/2026-03-23A%E8%82%A1%E6%97%A5%E6%8A%A5.html", { loader: () => import(/* webpackChunkName: "2026-03-23A股日报.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026-03-23A股日报.md"), meta: {"title":"2026年3月23日 A股收盘简报"} }],
+  ["/2026-03-28.html", { loader: () => import(/* webpackChunkName: "2026-03-28.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026-03-28.md"), meta: {"title":"2026年3月28日 时政热点总结（公务员备考版）"} }],
+  ["/2026-03-30-%E6%97%B6%E6%94%BF%E7%83%AD%E7%82%B9%E6%97%A9%E6%8A%A5.html", { loader: () => import(/* webpackChunkName: "2026-03-30-时政热点早报.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026-03-30-时政热点早报.md"), meta: {"title":"📋 时政热点早报 | 2026年3月30日 星期一"} }],
+  ["/2026%E5%B9%B4%E6%B1%9F%E8%8B%8F%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A%E6%B1%87%E6%80%BB.html", { loader: () => import(/* webpackChunkName: "2026年江苏事业单位招聘公告汇总.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026年江苏事业单位招聘公告汇总.md"), meta: {"title":"2026年江苏事业单位招聘公告 - 官方来源汇总"} }],
+  ["/2026%E5%B9%B4%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%94%BF%E5%BA%9C%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A.html", { loader: () => import(/* webpackChunkName: "2026年江苏省政府工作报告.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026年江苏省政府工作报告.md"), meta: {"title":"2026年江苏省政府工作报告"} }],
+  ["/2026%E6%B1%9F%E8%8B%8F%E4%BB%A3%E8%A1%A8%E5%9B%A2%E5%8F%91%E8%A8%80%E6%B1%87%E6%80%BB.html", { loader: () => import(/* webpackChunkName: "2026江苏代表团发言汇总.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026江苏代表团发言汇总.md"), meta: {"title":"2026年十四届全国人大四次会议江苏代表团发言汇总"} }],
+  ["/2026%E6%B1%9F%E8%8B%8F%E7%A7%91%E6%8A%80%E5%88%9B%E6%96%B0%E4%BA%A7%E4%B8%9A%E5%88%9B%E6%96%B0%E8%AE%B2%E8%AF%9D.html", { loader: () => import(/* webpackChunkName: "2026江苏科技创新产业创新讲话.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/2026江苏科技创新产业创新讲话.md"), meta: {"title":"2026年全国两会江苏代表团科技创新和产业创新讲话汇总"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/README.md"), meta: {"title":"首页"} }],
+  ["/openclaw_common_commands.html", { loader: () => import(/* webpackChunkName: "openclaw_common_commands.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/openclaw_common_commands.md"), meta: {"title":"常用 OpenClaw 指令总结"} }],
+  ["/%E4%B8%80%E5%B9%B3%E6%96%B9%E7%B1%B3%E9%87%8C%E7%9A%84%E5%A2%9E%E5%80%BC%E5%8F%91%E5%B1%95%E6%80%BB%E7%BB%93.html", { loader: () => import(/* webpackChunkName: "一平方米里的增值发展总结.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/一平方米里的增值发展总结.md"), meta: {"title":"一平方米里的“增值发展”总结"} }],
+  ["/%E5%9B%BD%E5%86%85%E6%97%B6%E6%94%BF%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81-20260312.html", { loader: () => import(/* webpackChunkName: "国内时政新闻摘要-20260312.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/国内时政新闻摘要-20260312.md"), meta: {"title":"国内时政新闻摘要（2026年3月12日）"} }],
+  ["/%E5%A4%AE%E8%A7%86%E4%BC%9A%E8%AE%AE%E6%80%BB%E7%BB%93.html", { loader: () => import(/* webpackChunkName: "央视会议总结.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/央视会议总结.md"), meta: {"title":"2026-03-02 中共中央政治局会议摘要"} }],
+  ["/%E6%96%B0%E8%B4%A8%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%AF%A6%E8%A7%A3.html", { loader: () => import(/* webpackChunkName: "新质生产力详解.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/新质生产力详解.md"), meta: {"title":"新质生产力详解"} }],
+  ["/%E6%AF%8F%E6%97%A5%E6%8A%95%E8%B5%84%E8%AE%B0%E5%BD%95.html", { loader: () => import(/* webpackChunkName: "每日投资记录.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/每日投资记录.md"), meta: {"title":"每日投资记录"} }],
+  ["/%E8%BF%B0%E8%81%8C%E6%8A%A5%E5%91%8A%E6%80%BB%E7%BB%93.html", { loader: () => import(/* webpackChunkName: "述职报告总结.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/述职报告总结.md"), meta: {"title":"2026-02-27 中央主要领导述职摘要"} }],
+  ["/%E9%94%99%E9%A2%98%E6%9C%AC%E6%A8%A1%E6%9D%BF.html", { loader: () => import(/* webpackChunkName: "错题本模板.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/错题本模板.md"), meta: {"title":"错题本模板（可复制）"} }],
   ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/about/README.md"), meta: {"title":"关于"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/jiraiya/.openclaw/workspace/vuepress-demo/docs/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
 ]);
