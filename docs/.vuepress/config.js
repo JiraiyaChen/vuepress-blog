@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
-  dest: '.vuepress/dist',
+  dest: 'dist',
 
   theme: defaultTheme({
     navbar: [
