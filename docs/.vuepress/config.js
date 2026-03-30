@@ -9,6 +9,8 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
+  dest: '.vuepress/dist',
+
   theme: defaultTheme({
     navbar: [
       { text: '首页', link: '/' },
