@@ -18,6 +18,7 @@ export const routes = Object.fromEntries([
   ["/%E8%BF%B0%E8%81%8C%E6%8A%A5%E5%91%8A%E6%80%BB%E7%BB%93.html", { loader: () => import(/* webpackChunkName: "述职报告总结.html" */"E:/work/vuepress-blog/docs/述职报告总结.md"), meta: {"title":"2026-02-27 中央主要领导述职摘要"} }],
   ["/%E9%94%99%E9%A2%98%E6%9C%AC%E6%A8%A1%E6%9D%BF.html", { loader: () => import(/* webpackChunkName: "错题本模板.html" */"E:/work/vuepress-blog/docs/错题本模板.md"), meta: {"title":"错题本模板（可复制）"} }],
   ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"E:/work/vuepress-blog/docs/about/README.md"), meta: {"title":"关于"} }],
+  ["/new-page/", { loader: () => import(/* webpackChunkName: "new-page_index.html" */"E:/work/vuepress-blog/docs/new-page/README.md"), meta: {"title":"新页面"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/work/vuepress-blog/docs/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
 ]);
 

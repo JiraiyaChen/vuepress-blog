@@ -1,6 +1,6 @@
-import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from '@vuepress/theme-default'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress';
+import { defaultTheme } from '@vuepress/theme-default';
+import { viteBundler } from '@vuepress/bundler-vite';
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -9,11 +9,11 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
-
   theme: defaultTheme({
     navbar: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about/' }
-    ]
-  })
-})
+      { text: '关于', link: '/about/' },
+      { text: '新页面', link: '/new-page/' },
+    ],
+  }),
+});
